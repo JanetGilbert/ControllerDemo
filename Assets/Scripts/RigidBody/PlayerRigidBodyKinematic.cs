@@ -7,8 +7,10 @@ using UnityEngine;
 
 public class PlayerRigidBodyKinematic : MonoBehaviour
 {
-   /* private Rigidbody rb;
+    private Rigidbody rb;
 
+    [SerializeField] private float torque = 20.0f;
+    [SerializeField] private float speed = 20.0f;
     // Controls
     private float turn;
     private float move;
@@ -36,5 +38,5 @@ public class PlayerRigidBodyKinematic : MonoBehaviour
 
         turn = (horiz != 0.0f) ? horiz : turn;
         move = (vert != 0.0f) ? vert : move;
-    }*/
+    }
 }
