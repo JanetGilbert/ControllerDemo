@@ -7,7 +7,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    [SerializeField] private GameObject player; // Drag player here
+    [SerializeField] private Transform player; // Drag player here
     private Vector3 cameraOffset;
 
     void Start()
