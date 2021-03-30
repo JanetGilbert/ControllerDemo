@@ -13,9 +13,9 @@ public class NoLock : MonoBehaviour
 
     void Update()
     {
-        float hRot = Input.GetAxis("Horizontal"); // AD
-        float vRot = Input.GetAxis("Vertical"); // SW
-        float otherRot = Input.GetAxis("Other"); // OP
+        float hRot = Input.GetAxis("Horizontal"); // A-D
+        float vRot = Input.GetAxis("Vertical"); // S-W
+        float otherRot = Input.GetAxis("Other"); // O-P
 
         transform.rotation *= Quaternion.Euler(hRot, vRot, otherRot); // Multiply Quaternions to apply rotation.
     }

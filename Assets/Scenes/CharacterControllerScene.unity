@@ -1357,10 +1357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaff53de0bc554d4b806e26925a22349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 95879257902625518}
   speed: 4
   jumpSpeed: 5
   gravity: 20
-  animator: {fileID: 95879257902625518}
 --- !u!114 &2134391255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d84c178ec7b448ab93b6462d2e3977e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2134391253}
+  player: {fileID: 2134391257}
 --- !u!143 &2134391256
 CharacterController:
   m_ObjectHideFlags: 0

@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Controller based on rigidbody (either kinematic or non-kinematic)
+// Kinematic version goes through walls!
 public class PlayerRigidBodyMover : MonoBehaviour
 {
+    //Cache
     private Rigidbody rb;
 
-
+    // Set in editor
     [SerializeField] private float turnSpeed = 20.0f;
     [SerializeField] private float speed = 20.0f;
 
+    // Controls
     private float rotate;
     private float forward;
 
